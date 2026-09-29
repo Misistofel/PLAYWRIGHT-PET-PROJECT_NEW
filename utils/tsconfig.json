@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "esModuleInterop": true,
+    "strict": true,
+    "types": ["node"]
+  },
+  "exclude": ["node_modules"]
+}
