@@ -5,7 +5,7 @@ on:
 
 env:
   HTTP_USERNAME: ${{ secrets.HTTP_USERNAME }}
-  HTTP_PASSWORD: ${{ secrets.HTTP_PASSWORD }}
+  HTTP_PASSWORD: ${{ secrets.HTTP_PASSWORD }} 
 
 jobs:
   test:
