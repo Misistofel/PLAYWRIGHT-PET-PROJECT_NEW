@@ -5,6 +5,9 @@ on:
     branches: [ main, github-actions ]
 #   workflow_dispatch:
 
+env:
+  HTTP_USERNAME: ${{ secrets.HTTP_USERNAME }}
+  HTTP_PASSWORD: ${{ secrets.HTTP_PASSWORD }}
 
 jobs:
   test:
